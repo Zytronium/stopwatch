@@ -5,3 +5,6 @@ edition = "2024"
 
 [dependencies]
 freya = "0.5.2"
+
+[profile.dev]
+debug = "line-tables-only"
